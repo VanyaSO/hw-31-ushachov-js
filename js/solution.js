@@ -7,6 +7,3 @@ for(let li of bodyChilds){
 }
 
 console.log(arr);
-// for(){
-//
-// }
