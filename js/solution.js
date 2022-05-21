@@ -1,9 +1,9 @@
-let bodyChilds = document.body.childNodes;
+let ul = document.getElementById('ulId');
 
 const arr = [];
 
-for(let li of bodyChilds){
-    arr.push(document.querySelector('ul > li').innerHTML);
+for(let li of ul.children){
+    arr.push(li.innerHTML);
 }
 
 console.log(arr);
